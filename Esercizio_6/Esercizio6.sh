@@ -18,3 +18,7 @@ echo ""
 gawk '{if ($1 == "MaxMem") $2 = 1024}1' memory_control.txt > temporaneo && mv temporaneo memory_control.txt # '1' aggiunge una nuova condizione sembre vera: stampa di ogni altra righa.
 
 echo "Valore di MaxMem modificato da 512 a 1024 in 'memory_control.txt'."
+
+
+
+#			THE END

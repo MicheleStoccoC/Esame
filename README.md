@@ -73,7 +73,16 @@ Ho scelto di eseguire gli esercizi bash  numero: 1, 3, 6, 8. Assieme all'eserciz
 
 #           Esercizio8
     BREVE SOMMARIO
+-) L'esercizio 8 chiede di entrare in una cartella e conteggiare gli elementi presenti distinguendoli in file, directories e file vuoti.
 
+    ESECUZIONE DEL PROGRAMMA
+1) L'utilizzatore ha bisogno dell'autorizzazione per eseguire il programma, questa si può implementare con il comando "chmod u+x Esercizio6.sh" prima di eseguire il file.
+
+2) Il programma ha bisogno di un argomento per poter essere eseguito; se questo viene fornito si blocca e fornisce un messaggio di errore; l'argomento deve essere una directory, se non lo è il programma si blocca comunque e fornisce un messaggio di errore. Inserimento dell'argomento: "./Esercizio8 Directory"
+
+3) Il programma stampa tutti i risultati sul terminale, il consiglio e quello di reindirizzare gli output in un file log: "./Esercizio8.sh Directory &> LOG8".
+
+4) Il programma non mostra tutta la sua efficacia nella cartella 'Esercizio_8' (si può provare ad eseguirlo con il nome di una cartella esterna e osservare il risultato).      Si consiglia di muovere il file nella directory 'Esame', eseguire il file 'Esercizio3.sh' nella rispettiva directory, NON utilizzare il file 'Pulizia.sh' ed infine eseguire il comando "./Esercizio8.sh Esercizio_3 &> LOG8".
 
 
 
