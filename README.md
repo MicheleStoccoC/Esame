@@ -87,5 +87,8 @@ Ho scelto di eseguire gli esercizi bash  numero: 1, 3, 6, 8. Assieme all'eserciz
 
 
 #           Esercizio 9
+    BREVE SOMMARIO
+
+
 
 
