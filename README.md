@@ -56,7 +56,19 @@ Ho scelto di eseguire gli esercizi bash  numero: 1, 3, 6, 8. Assieme all'eserciz
 
 #           Esercizio6
     BREVE SOMMARIO
+-) L'esercizio 6 chiede di generare un file e modificare una delle parole in loco attraverso il comando 'gawk'.
 
+
+    ESECUZIONE DEL PROGRAMMA
+1) L'utilizzatore ha bisogno dell'autorizzazione per eseguire il programma, questa si può implementare con il comando "chmod u+x Esercizio6.sh" prima di eseguire il file. 
+
+2) Per verificare l'effettivo cambiamento del file il programma ne stampa sul terminale la prima versione da confrontare successivamente aprendo il file "memory control.txt"; se non si vuole intasare il terminale si può redirezionare l'output in un file log: "./Esercizio6.sh &> LOG".
+
+3) Alla riga 18 il comando è stato compresso. La sintassi utilizzata permette a "gawk" di scrivere solamente la riga che ha identificato (i.e. scrive solo la riga 'MaxMem 512'), il valore '1' all'esterno impone una nuova condizione a "gawk" sempre vera che gli impone di applicare l'azione di default ossia scrivere l'intera linea: in questo modo il comando legge e riscrive ogni linea lasciandola invariata finché non trova la stringa indicata ('MaxMem') e sostisuisce il valore della seconda colonna.
+
+4) E' stato utilizzato un file temporaneo di supporto in modo da non agire direttamente su 'memory control.txt': in caso di problemi durante l'esecuzione il file originario non viene toccato\rovinato; il contenuto del file temporaneo viede poi sovrascritto su 'memory control.txt' e l'effetto cumulativo è quello di una sostituzione in loco del valore '512' in '1024'.
+
+5) Nel caso si volesse rimuovere il file appena creato si può utilizzare il comando "rm memory_control.txt".
 
 
 #           Esercizio8
