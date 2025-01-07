@@ -1,10 +1,9 @@
 #           ESAME ABILITA' INFORMATICHE E TELEMATICHE
 # AUTHOR: Michele Stocco Calzavara
 
-Qui vengono caricati gli esercizi per l'esame di Abilità Informatiche e Telematiche
+Qui vengono caricati gli esercizi per l'esame di Abilità Informatiche e Telematiche. La cartella è pubblica ma la chiave per poter modificare la cartella online deve essere richiesta via mail.
 
 Ho scelto di eseguire gli esercizi bash numero: 1, 3, 6, 8. Assieme all'esercizio 9 in Python. 
-
 
 
 
@@ -89,7 +88,6 @@ Ho scelto di eseguire gli esercizi bash numero: 1, 3, 6, 8. Assieme all'esercizi
 
 
 #           Esercizio 9
-AGGIUNTA DI DUE "POLYFIT"
     BREVE SOMMARIO
 -) L'esercizio 9 chiede di analizzare i dati provenienti da una simulazione idrodinamica di un ammasso; tra questi troviamo le masse delle varie componenti della struttura e le posizioni rispetto a noi.
 
