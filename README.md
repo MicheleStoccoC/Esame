@@ -100,10 +100,13 @@ Ho scelto di eseguire gli esercizi bash numero: 1, 3, 6, 8. Assieme all'esercizi
 3) Il programma non ha output a schermo.
 
 
+
     PUNTO 1
 Il programma restituisce prima il plot DM su BM con gli assi in scala logaritmica. Successivamente sovrappone un fit lineare ad esso: l'immagine riporta i plot con gli assi in scala normale e logaritmica per mostrare come il fit lineare si rapporta con i dati; la Most Massive Galaxy (MMG) si dimostra essere un oggetto completamente fuori scala rispetto alle altre strutture presenti nell'ammasso, questo risulterà essere un probema ricorrente per la maggior parte dei grafici in quanto non permette una adeguata visualizzazione delle immagini, per questo il plot viene presentato nuovamente senza tenere conto della MMG: in questo secondo caso la stima dei parametri è stata fatta con la funzione 'polyfit' della libreria numpy;si nota che i dati sembrano rispondere bene al fit lineare nonostante una visibile dispersione, soprattutto per le strutture meno massicce; il fit prevede un andamento lineare con coefficiente m=2.9.
+
     PUNTO 2
 Il programma è in grado di trovare la struttura più massiccia anche nel caso essa non fosse la prima della lista, grazie al comando 'array.max()' e ad una maschera che seleziona solo la sua riga. L'array delle distanze viene computato attraverso un ciclo 'for' ed il risultato è una matrice con 4 colonne: 3 coordinate + il modulo della distanza, quest'ultimo verrà utilizzato nel plot richiesto.
+
     PUNTO 3
 Il programma genera un istogramma della distribuzione delle masse degli aloni di Dark Matter. Per migliorare la leggibilità e poter comprendere in esso anche la MMG, l'asse delle ascisse (la massa) è stato impostato in scala logaritmica.
     PUNTO 4
