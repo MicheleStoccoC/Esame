@@ -109,10 +109,15 @@ Il programma è in grado di trovare la struttura più massiccia anche nel caso e
 
     PUNTO 3
 Il programma genera un istogramma della distribuzione delle masse degli aloni di Dark Matter. Per migliorare la leggibilità e poter comprendere in esso anche la MMG, l'asse delle ascisse (la massa) è stato impostato in scala logaritmica.
+
     PUNTO 4
 Il programma mostra prima la distribuzione spaziale delle strutture per i piani x-y e z-y successivamente tenta di aggiungere nella stessa figura anche la distribuzione sul piano x-z. Dopodichè genera lo scatter con area e colore dipendenti da massa stellare e gassosa (rispettivamente). Anche in questo caso i valori della MMG saturavano la scala dei colori e delle aree, quindi questi due scatter sono stati riproposti senza la MMG in modo da avere una migliore visualizzazione dei colori e delle aree. In questa sezione del programma è presenta un'area commentata su più righe: questa si può decommentare e durante l'esecuzione tenterà di fare uno scatter 3D della distribuzione spaziale delle strutture, aguzzando la vista verso le zone centrali dello scatter si potranno anche notare le strutture più massicce aventi un colore diverso dalle altre (azzurro, verde, giallo).
 Soprattutto dai primi grafici si può apprezzare come la struttura computata sembra trovarsi lungo uno dei filamenti di DM che strutturano l'Universo; infatti si possono notare dei "bracci" popolati da galassie uscire dalla struttura principale dell'ammasso.
+
     PUNTO 5
 Il programma mostra il plot già privato dei dati relativi alla MMG (a causa dei soliti problemi di scala). Le strutture più leggere sembrano seguire un andamento lineare mentre più aumenta la massa più le strutture sembrano distaccarsi da questa relazione, anche in questo caso la retta di fit è stata trovata utilizzando il comando 'polyfit()'.
+
     PUNTO 6
 Per trovare le 5 strutture come indicato dalla consegna, il programma cerca nella colonna della massa gassosa; successivamente l'istogramma viene fatto utilizzando la massa totale delle strutture che compongono l'ammasso. Il programma prima genera i 5 singoli istogrammi e poi mostra la somma dei conteggi in uno cumulativo.
+
+
